@@ -47,14 +47,43 @@ video{
     height:500px;
     padding:50px;
 }
-span.play{ 
-    display:block; 
-    background-image: "../images/play-arrow.png";
-    background: center center no-repeat; 
-    margin: -200px 0px 0 0; 
-    height: 200px; position: relative; 
-    z-index: 100; 
-    opacity: 0.8; 
-    filter: alpha(opacity=80); 
+span.play{ display:none; background: url('../images/play-arrow.png') center center no-repeat; margin: -200px 10px 0 0; height: 200px; position: relative; z-index: 100; opacity: 0.8; filter: alpha(opacity=80); }
+a:hover span.play{ display:block; }
+
+#information{
+    width:60%;
+    height:260px;
+    margin:auto;
+    overflow:auto;
+    text-align: inherit;
+    border: 1px solid black;
+    border-radius: 10px;
 }
-#gallery a:hover span.play{ display:block; }
+
+#tableInfo {
+    width: 30%;
+    border-right:1px solid black;
+    height:260px;
+    font-size: 20px;
+    line-height:20px;
+}
+
+#tableInfo li {
+    text-align: left;
+    list-style: none;
+    height:25%;
+    padding:10px;
+}
+
+.title {
+    background: url(../images/comments.png) left no-repeat;
+    padding: 0 0 0 40px;
+}
+.author {
+    background: url(../images/author.png) left no-repeat;
+    padding: 0 0 0 40px;
+}
+.date {
+    background: url(../images/date.png) left no-repeat;
+    padding: 0 0 0 40px;
+}
