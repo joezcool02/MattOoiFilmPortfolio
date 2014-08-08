@@ -196,7 +196,9 @@ span.play p {
 }
 
 #MovieInfo p{
-    text-align: center;
+    text-align: justify;
+    text-overflow:ellipsis;
+    padding-left: 30px;
 }
 .title {
     background: url(../images/comments.png) left no-repeat;
