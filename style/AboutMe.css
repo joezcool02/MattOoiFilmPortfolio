@@ -21,6 +21,11 @@
     border-top-width: 0.045em;
     border-bottom: 0.045em solid #000;
     margin-right:4%;
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;  
 }
 #AboutMe ul li p{
     text-align: justify;
@@ -31,4 +36,14 @@
     font-weight: inherit;
     font-style: inherit;
     font-family: inherit;
+    text-shadow:
+   color: #90e6f5;
+   text-shadow: 0 0 3px #959DA9, 0 0 6px #959DA9,
+           0 0 9px #959DA9;
+    letter-spacing: 3px;
+}
+
+#AboutMe ul li h3{
+ color: #959DA9;  
+    padding: 0;
 }
