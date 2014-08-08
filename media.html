@@ -12,7 +12,7 @@
     <!-- script for changing data in the movieinfo section -->
     <script type="text/javascript"     src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   </head>
-  <body>
+  <body >
     <div id ='Top'>
       <div id = 'Logo'> 
       </div>
@@ -26,7 +26,7 @@
       
     </div>
       <div id='media-player'>
-        <video id='media-video' src="video/Video.mp4" controls>
+        <video id='media-video' poster="images/Choose.png" controls>
         </video>
       </div><!--
  --><div id ='gallery'>
@@ -65,16 +65,8 @@
         </tr>
       </table>
     </div><!--
- --><div id ='information'>
-    <!--
-      <div id ='tableInfo' class="textWord_about" data-link="first">
-        <li><span class="title"  >How to see through clothes</span></li>
-        <li><span class="date">July 24, 2014</span></li>
-        <li><span class="author">Posted by: Joe</span></li>
-      </div>
-Add one of these for each video
--->
-      <div id ='tableInfo' class="textWord_about" data-link="first">
+ --><div id ='information' class="textWord_about" data-link="first">
+      <div id ='tableInfo' >
         <li>
           <span class="title"  >How to see through clothes</span>
         </li>
@@ -85,7 +77,15 @@ Add one of these for each video
           <span class="author">Posted by: Joe</span>
         </li>
       </div>
-      <div id ='tableInfo' class="textWord_about" data-link="second">
+      <div id = 'MovieInfo'>
+          <h2  >Katy Perry</h2>
+          <p > Katy PErry</p>
+      </div>
+    </div>
+    
+    <!--Second Video -->
+    <div id ='information' class="textWord_about" data-link="second">
+      <div id ='tableInfo'>
         <li>
           <span class="title"  >Daisy in Paris</span>
         </li>
@@ -96,20 +96,10 @@ Add one of these for each video
           <span class="author">Posted by: Joe</span>
         </li>
       </div>
-    
-    <!-- Add one of these for each video
-<h2 class="textWord_about" data-link="first" >Katy Perry</h2>
-          <p class="textWord_about" data-link="first"> Katy PErry</p>
--->
       <div id = 'MovieInfo'>
-          <h2 class="textWord_about" data-link="first" >Katy Perry</h2>
-            <p class="textWord_about" data-link="first"> Katy PErry</p>
-          <h2 class="textWord_about" data-link="second" >Daisy Connor</h2>
-            <p class="textWord_about" data-link="second"> Daisy Connor</p>
+        <h2>Daisy Connor</h2>
+        <p > Daisy Connor</p>
       </div>
-    </div>
-    
-    
-    
+        
   </body>
 </html>
