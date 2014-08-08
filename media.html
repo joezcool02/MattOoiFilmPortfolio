@@ -8,6 +8,7 @@
     <link href="style/Gallery.css" rel="stylesheet" type="text/css" >
     <!-- install jQuery -->
     <script src="script/mediaPlayer.js"></script>
+    <script src="script/Information.js"></script>
     <!-- script for changing data in the movieinfo section -->
     <script type="text/javascript"     src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   </head>
@@ -109,17 +110,6 @@ Add one of these for each video
     </div>
     
     
-<!-- JavaScript which makes the changing text possible -->
-<script type="text/javascript">
-$('.textWord_about').hide();
-
-$('.link').click(function() {
-    $('.textWord_about').hide();       
-    $('.textWord_about[data-link=' + $(this).data('link') + ']').fadeIn({
-        width: '200px'
-    }, 300);
-});
-</script>
     
   </body>
 </html>
