@@ -272,6 +272,7 @@ span.play p {
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
   box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
   text-shadow: 2px 2px 3px #FFFFFF;
+    text-decoration: underline;
 }
 
 #menu-bar ul a:hover {
