@@ -6,115 +6,108 @@
     <link href="style/media.css" rel="stylesheet" type="text/css" >
     <!-- install jQuery -->
     <script src="script/mediaPlayer.js"></script>
-      
-      
-      <script type="text/javascript"     src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+    <!-- script for changing data in the movieinfo section -->
+    <script type="text/javascript"     src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   </head>
-    
   <body>
     <div id ='Top'>
       <div id = 'Logo'> 
       </div>
         
-     <div id = 'Menu'>
+      <div id = 'Menu'>
         <ul id="menu-bar">
           <li class="active" style = "float:left;"><a>Portfolio</a></li>
           <li style = "float:right;"><a href="About.html">About</a></li>
         </ul>
-     </div>    
+      </div>    
       
     </div>
       <div id='media-player'>
-      <video id='media-video' src="video/Video.mp4" controls>
-      </video>
-    </div><!--
+        <video id='media-video' src="video/Video.mp4" controls>
+        </video>
+      </div><!--
  --><div id ='gallery'>
       <table>
-          <tr>
+        <tr>
+              <!--add one of these for each new video 
             <td>
-              <a href="#" onclick='loadVideo("video/Video.mp4");'>
+              <a href="#Katy" onclick='loadVideo("video/Video.mp4");' data-link="first" class="link">
                 <img src="images/testimage1.png" >
                 <span class="play"><p><strong>A short film about a young aspiring actor and his magical ability to remove clothing from celebrities, featuring the wonderful Katy Perry</p></strong></span>    
               </a>
             </td>
-            <td>
-              <a href="#" onclick='loadVideo("video/eiffelTower.mp4");'>
-                <img src="images/testimage2.png" >
-                <span class="play"><p><strong>hello how are you my name is joseph ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha haha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha</strong></p></span>    
-              </a>
-            </td>
-            <td>
-              <a href="#" onclick='loadVideo("video/Video.mp4");'>
-                <img src="images/testimage3.png" >
-                <span class="play"></span>    
-              </a>
-            </td>
-            <td>
-              <a href="#" onclick='loadVideo("video/Video.mp4");'>
-                <img src="images/testimage4.png" >
-                <span class="play"></span>    
-              </a>
-            </td>
-            <td>
-              <a href="#" onclick='loadVideo("video/Video.mp4");'>
-                <img src="images/ComingSoonpic.png" >
-                <span class="play"></span>    
-              </a>
-            </td>
-            <td>
-              <a href="#" onclick='loadVideo("video/Video.mp4");'>
-                <img src="images/ComingSoonpic.png" >
-                <span class="play"></span>    
-              </a>
-            </td>
-          </tr>
+-->
+          <td>
+          <a href="#Katy" onclick='loadVideo("video/Video.mp4");' data-link="first" class="link">
+          <img src="images/testimage1.png" >
+            <span class="play">
+              <p>
+                <strong>A short film about a young aspiring actor and his magical ability to remove clothing from celebrities, featuring the wonderful Katy Perry
+                </strong>
+              </p> 
+            </span>    
+          </a>
+          </td>
+          <td>
+            <a href="#Daisy" onclick='loadVideo("video/eiffelTower.mp4");' data-link="second" class="link">
+            <img src="images/testimage2.png" >
+              <span class="play">
+                <p>
+                  <strong>hello how are you my name is joseph ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha haha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha ahahahah ah aha ha hah aha ha
+                  </strong>
+                </p>
+              </span>    
+            </a>
+        </td>
+        </tr>
       </table>
     </div><!--
  --><div id ='information'>
-      <div id ='tableInfo'>
-        <li><span class="title">How to see through clothes</span></li>
+    <!--
+      <div id ='tableInfo' class="textWord_about" data-link="first">
+        <li><span class="title"  >How to see through clothes</span></li>
         <li><span class="date">July 24, 2014</span></li>
         <li><span class="author">Posted by: Joe</span></li>
       </div>
-      
-      <div id = 'MovieInfo'>
-          <h2>Hello</h2>
-          <p> Hello my name is Joseph and welcome to my cribHello my name is Joseph and welcome to my cribHello my name is Joseph and welcome to my cribHello my name is Joseph and welcome to my cribHello my name is Joseph and welcome to my cribHello my name is Joseph and welcome to my cribHello my name is Joseph and welcome to my cribHello my name is Joseph and welcome to my cribHello my name is Joseph and welcome to my cribHello my name is Joseph and welcome to my cribHello my name is Joseph and welcome to </p>
+Add one of these for each video
+-->
+      <div id ='tableInfo' class="textWord_about" data-link="first">
+        <li>
+          <span class="title"  >How to see through clothes</span>
+        </li>
+        <li>
+          <span class="date">July 24, 2014</span>
+        </li>
+        <li>
+          <span class="author">Posted by: Joe</span>
+        </li>
       </div>
-      
+      <div id ='tableInfo' class="textWord_about" data-link="second">
+        <li>
+          <span class="title"  >Daisy in Paris</span>
+        </li>
+        <li>
+          <span class="date">July 24, 2014</span>
+        </li>
+        <li>
+          <span class="author">Posted by: Joe</span>
+        </li>
+      </div>
+    
+    <!-- Add one of these for each video
+<h2 class="textWord_about" data-link="first" >Katy Perry</h2>
+          <p class="textWord_about" data-link="first"> Katy PErry</p>
+-->
+      <div id = 'MovieInfo'>
+          <h2 class="textWord_about" data-link="first" >Katy Perry</h2>
+            <p class="textWord_about" data-link="first"> Katy PErry</p>
+          <h2 class="textWord_about" data-link="second" >Daisy Connor</h2>
+            <p class="textWord_about" data-link="second"> Daisy Connor</p>
+      </div>
     </div>
     
     
-    
-    
-    
-    
-    <a class="link" href="#about" data-link="first">
-    &nbsp;&nbsp; Why We Exist
-</a> &#8226; 
-<a class="link" href="#about" data-link="second">Who We Are</a> &#8226;
-    
-    
-  <div class="textWord_about" data-link="first">
- <p>test1</p>
- </div>
-<div class="textWord_about" data-link="second">
-  <p>test2</p>
-</div>
-    
-    
-    
+<!-- JavaScript which makes the changing text possible -->
 <script type="text/javascript">
 $('.textWord_about').hide();
 
