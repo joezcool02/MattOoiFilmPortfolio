@@ -99,6 +99,8 @@ span.play{
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+         -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
+    padding-top: 10px;
 }
 
 a:hover span.play{
@@ -117,6 +119,8 @@ border-bottom-right-radius: 15px;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
+    padding-top: 5%;
 }
 
 a:hover, a:visited, a:link, a:active

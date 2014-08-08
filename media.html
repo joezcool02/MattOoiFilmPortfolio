@@ -6,6 +6,20 @@
     <link href="style/media.css" rel="stylesheet" type="text/css" >
     <!-- install jQuery -->
     <script src="script/mediaPlayer.js"></script>
+      
+      
+      <script type="text/javascript"     src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
   </head>
     
   <body>
@@ -80,5 +94,37 @@
       </div>
       
     </div>
+    
+    
+    
+    
+    
+    
+    <a class="link" href="#about" data-link="first">
+    &nbsp;&nbsp; Why We Exist
+</a> &#8226; 
+<a class="link" href="#about" data-link="second">Who We Are</a> &#8226;
+    
+    
+  <div class="textWord_about" data-link="first">
+ <p>test1</p>
+ </div>
+<div class="textWord_about" data-link="second">
+  <p>test2</p>
+</div>
+    
+    
+    
+<script type="text/javascript">
+$('.textWord_about').hide();
+
+$('.link').click(function() {
+    $('.textWord_about').hide();       
+    $('.textWord_about[data-link=' + $(this).data('link') + ']').fadeIn({
+        width: '200px'
+    }, 300);
+});
+</script>
+    
   </body>
 </html>
