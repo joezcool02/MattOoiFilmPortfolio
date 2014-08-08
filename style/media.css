@@ -63,31 +63,84 @@ body{
     border-radius: 10px;
 }
 #gallery td{
-    padding:20px;
+    padding:10px;
 }
 #gallery img{
     width:250px;
     cursor: pointer;
+    height: 200px; 
+    -webkit-border-top-left-radius: 15px;
+-webkit-border-bottom-right-radius: 15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-bottomright: 15px;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+    border: 1px solid white;
 }
 
 video{
-    height:90%;
-    width:90%;
-    padding:5%;
+    height:100%;
+    width:100%;
+    padding:0%;
 }
 span.play{ 
-    display:none;
+    display:block;
+    height: 100%;
+    width: 100%;
     background: url('../images/play-arrow.png') center center no-repeat; 
-    margin: -200px 10px 0 0; 
+    margin: -205px 0 0 0; 
     height: 200px; 
     position: relative;
     z-index: 100; 
-    opacity: 0.8; 
-    filter: alpha(opacity=80);
+    opacity: 0.0; 
+    filter: alpha(opacity=20);
+    -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 a:hover span.play{
     display:block; 
+    background-color: black;
+    opacity: 0.9;
+    -webkit-border-top-left-radius: 15px;
+-webkit-border-bottom-right-radius: 15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-bottomright: 15px;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+    border: 1px solid white;
+    -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+span.play p {
+    z-index: 9999;
+    margin: 0;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    height: 100%;
+    top:5%;
+    width:210px;
+    color: white;
+    margin: 0 auto;
+    text-align: justify;
+       color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
 
 #information{
