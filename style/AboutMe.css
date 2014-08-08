@@ -1,0 +1,34 @@
+#AboutMe
+{
+    width:100%;
+}
+#AboutMe ul li{
+    margin-right: 20%;
+    margin-left: 17.5%;
+    list-style-type: none;
+    display: block;
+}
+#AboutMe ul li h2{
+    font-family: baskerville,'palatino linotype','times new roman',serif;
+    font-size: 1.375em;
+    line-height: 1em;
+    letter-spacing: -0.045em;
+    text-align: right;
+    float: left;
+    padding-left: 10%;
+    width: 6.5em;
+    padding: 1.909em 0 2.136em;
+    border-top-width: 0.045em;
+    border-bottom: 0.045em solid #000;
+    margin-right:4%;
+}
+#AboutMe ul li p{
+    text-align: justify;
+    margin: 1.571em 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+}
